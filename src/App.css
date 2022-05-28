@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.timer, .stopwatch {
+    font-weight: bold;
+    font-size: px;
+}
+

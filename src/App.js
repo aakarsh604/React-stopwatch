@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
+import Timer from "./Components/Timer";
+import Stopwatch from "./Components/Stopwatch";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tabs isFitted variant="enclosed" className="main">
+        <TabList mb="1em" >
+          <Tab className="timer">Timer</Tab>
+          <Tab className="stopwatch">Stopwatch</Tab>
+        </TabList>
+        <TabPanels>
+          <TabPanel>
+                      <Timer/>
+          </TabPanel>
+          <TabPanel>
+                      <Stopwatch/>
+          </TabPanel>
+        </TabPanels>
+      </Tabs>
     </div>
   );
 }

@@ -1,0 +1,55 @@
+.main {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > input {
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid blue;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn {
+  margin-left: -25px;
+  margin-top: 20px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 20px;
+  background-color: rgba(0, 117, 235, 0.859);
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.number {
+  font-size: 100px;
+  margin-left: -20px;
+  margin-bottom: -50px;
+}
+
+.btn1 {
+  margin-top: 100px;
+}
+.btn2 {
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.btn3 {
+  margin-left: 10px;
+  margin-top: 100px;
+}
